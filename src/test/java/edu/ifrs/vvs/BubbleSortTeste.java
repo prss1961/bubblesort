@@ -1,7 +1,6 @@
 package edu.ifrs.vvs;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
-
 import java.util.Arrays;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
@@ -25,6 +24,7 @@ public class BubbleSortTeste {
         bs.sort(input);
         assertTrue(Arrays.equals(expectedOutput, input));
     }
+    
 
     @Test
     @SuppressWarnings("checkstyle:magicnumber")
